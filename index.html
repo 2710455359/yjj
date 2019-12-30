@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#main{
+				height: 400px;
+				widows: 400px;
+				background-color: red;
+			}
+		</style>
+		<script type="text/javascript">
+			function getname(){
+				alert(sname.value);//HTML5的js对象
+				alert(city.value);
+				//main.style.backgroundColor:"yellow";
+			}
+			
+		</script>
+	</head>
+	<body>
+		姓名：<input type="text" id="sname" /><br />
+		<input type="button" value="获取姓名" onclick="getname()"/><br />
+		
+		<select id="city">
+			<option >请选择</option>
+			<option value="1">长沙</option>
+			<option value="2">株洲</option>
+			<option value="3">湘潭</option>
+		</select><br />
+		<input type="button" value="获取姓名" onclick="getname()"/><br />
+		
+		<div id="main">
+			
+		</div>
+	</body>
+</html>
